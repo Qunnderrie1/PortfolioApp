@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy" : "http://localhost:3001",
-  "homepage": "http://qunnderrie.github.io/portfolioapp",
+  "homepage": "http://qunnderrie1.github.io/PortfolioApp",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
