@@ -10,7 +10,7 @@ const Header = () => {
         <h1 style={{fontWeight: "light"}}> Hello, I'm A <span>Full Stack Developer</span></h1>
         <p>A passionate web developer that has experience using frontend and backend technologies.</p>
 
-        <a href="Qunnderrie_Resume.pdf" download>
+        <a href="Developer.pdf" download>
         <button>Resume CV</button>
         </a>
 
