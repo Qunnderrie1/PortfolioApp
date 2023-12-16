@@ -335,8 +335,8 @@ nav .navbar .navbar-expand{
 }
 
 .skillsCard img {
-  width: 250px;
-  height: 190px;
+  width: auto;
+  height: auto;
 }
 
 .iconContainer{
