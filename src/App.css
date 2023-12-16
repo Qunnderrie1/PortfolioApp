@@ -368,9 +368,13 @@ nav .navbar .navbar-expand{
   }
 
 
+  .skillsCard img{
+    height: 190px;
+  }
+
+
   .skillsCard{
     width: 300px;
-    height: 200px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
