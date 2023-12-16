@@ -14,7 +14,7 @@ const projects = [
   },
   {
     name: "TicTacToe Game",
-    img: "tictactOepic.PNG",
+    img: "tictactoepic.PNG",
     website: "https://qunnderrie1.github.io/TicTacToe/"
 
   },
