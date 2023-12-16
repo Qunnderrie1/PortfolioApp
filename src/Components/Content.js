@@ -38,7 +38,7 @@ const Content = () => {
         if(name == "" || text == ""){
             console.log("Please enter all input fields")
         }else{
-            axios.post("/" , {
+            axios.post("https://www.qunnderrie.com" , {
                 email: email,
                 name: name,
                 subject: subject,

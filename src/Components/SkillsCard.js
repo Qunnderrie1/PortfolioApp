@@ -5,11 +5,17 @@ const SkillsCard = ({name, img, description}) => {
   return (
     <div className='skillsContainer'>
     <div className='skillsCard'>
-        <p>{description}</p>
-        <h4>{name}</h4>
-        <img src={img} width="100px" />
+
+    <div className='topSkillsContainer'>
+    <img src={img} width="100px" />
+    <h4>{name}</h4>
+      </div>
+    <div>
+    <p>{description}</p>
     </div>
 
+
+    </div>
 
     </div>
   )

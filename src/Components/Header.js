@@ -14,7 +14,8 @@ const Header = () => {
         <a href="Software_Engineer_Resume_New.pdf" download>
         <button style={{ width: "150px"}}>Resume CV</button>
         </a>
-        <a href="Software_Engineer_Resume_New.pdf" download>
+
+        <a href='mailto:qunnderrie@gmail.com'>
         <button style={{ width: "150px"}}>Hire Me</button>
         </a>
         </div>
