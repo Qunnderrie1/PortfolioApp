@@ -1,11 +1,11 @@
 :root{
-  --backgroundColor: #1a1a1a;
+  --backgroundColor: #000000;
   --navLinksColor: #00b90f;
 }
 
 
 body{
-  background-color: #1a1a1a;
+  background-color: #000000;
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
   
@@ -43,14 +43,14 @@ body{
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #97d603;
+  background-image: linear-gradient(#8203d6 , rgb(166, 3, 207));
 
 }
 
 
 
 .nav-link{
-  color:#97d603;
+  color:#8203d6 ;
   visibility: visible;
   font-weight: 600;
   position: relative;
@@ -63,7 +63,7 @@ body{
   content: "";
   width: 0px;
   height: 5px;
-  background-color: #97d603;
+  background-color: #8203d6 ;
   border-radius: 50%;
   position: absolute;
   bottom: -3px;
@@ -73,19 +73,19 @@ body{
 }
 
 .nav-link:hover{
-  color: #97d603;
+  color: #c403d6 ;
 }
 
 .nav-link:hover::after{
   content: "";
   width: 5px;
   height: 5px;
-  background-color: #97d603;
+  background-color: #8203d6 ;
   border-radius: 50%;
   position: absolute;
   bottom: -3px;
   left: 50%;
-  color: #97d603;
+  color: #8203d6 ;
 
 
 }
@@ -109,20 +109,20 @@ body{
 }
 
 nav{
-  color: #97d603;
+
   width: 100%;
 
 }
 .navbar {
-  background-color:#1a1a1a;
+  background-color: #000000;
   text-align: center;
 }
 
 .navbar-toggler-icon{
-  background-color: #97d603;
+  background-color: #8203d6 ;
 }
 .nb button{
-  background-color: #97d603;
+  background-color: #8203d6 ;
 }
 
 .nb{
@@ -150,8 +150,8 @@ nav .navbar .navbar-expand{
   }
 
   header button{
-    color: #97d603;
-    border:#97d603 solid 2px ;
+    color: #8203d6 ;
+    border:#8203d6  solid 2px ;
     width: fit-content;
     padding: 0px 20px;
     height: 50px;
@@ -161,7 +161,7 @@ nav .navbar .navbar-expand{
   }
 
   header button:hover{
-    background-color:#97d603;
+    background-color:#8203d6 ;
     color:#000000;
     border-radius: 10px;
 
@@ -169,7 +169,8 @@ nav .navbar .navbar-expand{
 
   .connectText{
     margin-top: 100px;
-    color: #97d603;
+    font-weight: 600;
+    color: #8903d6;
   }
 
 
@@ -179,14 +180,14 @@ nav .navbar .navbar-expand{
     padding: 0px 20px;
   }
   .sideBar{
-    background-color: #97d603;
+    background-color: #8203d6;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: fit-content;
-    color: #1a1a1a;
+    color: #000;
     margin-top: 20px;
     padding: 20px;
     
@@ -212,22 +213,31 @@ nav .navbar .navbar-expand{
 
 
   header h1 {
-    color: white;
-    font-size: 60px;
+    background:  -webkit-linear-gradient(#8203d6 , rgb(166, 3, 207));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
     margin-top: 100px;
-    font-weight: lighter;
+    font-weight: 500;
 
-    font-weight: bold;
   }
   header span{
     display: block;
     color: #97d603;
+    font-weight: 800;
+ 
 
   }
   header p {
     margin-top: 4px;
   }
 
+
+  .headerButtonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
 
 
   .contentContainer{
@@ -241,7 +251,10 @@ nav .navbar .navbar-expand{
   .contentContainer h2{
     font-size: 2.5rem;
     font-weight: bold;
-    color: #97d603;
+    background:  -webkit-linear-gradient(#8203d6 , rgb(166, 3, 207));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 
 
   }
@@ -256,7 +269,7 @@ nav .navbar .navbar-expand{
   .aboutContainer{
   
     position: relative;
-    margin-top: 150px;
+    margin-top: 50px;
     width: 100%;
     height: 100%;
     background-color: rgb(19, 19, 19);
@@ -281,7 +294,7 @@ nav .navbar .navbar-expand{
   .aboutImage{
     height: 30px;
     width: 100px;  
-    background-color: #97d603;
+    background-color: #8203d6 ;
     transform: rotate(45deg);
     border-radius: 40px;
     padding: 0px 80px;
@@ -292,7 +305,7 @@ nav .navbar .navbar-expand{
 .customImage{
   width: 100px;
   height: 100%;
-  background-color:#97d603;
+  background-color:#8203d6 ;
 }
 
   article{
@@ -300,11 +313,35 @@ nav .navbar .navbar-expand{
     line-height: 34px;
     margin-top: 20px;
     font-size: 18px;
+    border: 2px solid #8203d6;
+    padding: 20px;
 
   }
 
 
+.iconSkillsContainer h3{
+  background:  -webkit-linear-gradient(#8203d6 , rgb(166, 3, 207));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 30px;
+}
 
+.iconSkillsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 80px;
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+
+  }
 
 
 .s-container{
@@ -312,7 +349,6 @@ nav .navbar .navbar-expand{
   gap: 10px;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
   margin: 100px auto;
   width: 100%;
 }
@@ -324,6 +360,14 @@ nav .navbar .navbar-expand{
 
   }
 
+  ul li {
+
+    font-size: 20px;
+    margin-top: 10px;
+
+  }
+
+
   .skillsCard{
     width: 300px;
     height: 200px;
@@ -332,10 +376,16 @@ nav .navbar .navbar-expand{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    box-shadow: #141414 2px 2px 10px;
 
 
+  }
 
+  .skillsCard h4 {
+    font-size: 30px;
+    font-weight: 800;
+    background:  -webkit-linear-gradient(#8203d6 , rgb(166, 3, 207));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
 .portfolioContainer{
@@ -353,8 +403,6 @@ nav .navbar .navbar-expand{
 
   .portfolioCardContainer img{
     border:#111111 solid 2px;
-    border-radius: 8px;
-    
   }
 
   .projectContainer{
@@ -387,25 +435,27 @@ nav .navbar .navbar-expand{
   }
 
   form button{
-    background-color:#1a1a1a;
-    color: #97d603;
-    border: #97d603 2px solid;
+    background-color:#000;
+    color: #8203d6 ;
+    border: 2px solid #8203d6 ;
     padding: 10px;
     transition: 0.3s;
     font-weight: bold;
   }
 
   form button:hover{
-    background-color: #97d603;
-    color: #1a1a1a;
+    background-color: #8203d6;
+    color: #000;
   }
   textarea{
     height: 400px;
-    background-color: #1a1a1a;
+    background-color: #000;
   }
 .messageContainer{
   margin: 40px;
-  color: #97d603;
+  background: -webkit-linear-gradient(#8203d6 , rgb(166, 3, 207));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 
@@ -454,9 +504,6 @@ nav .navbar .navbar-expand{
     
     
   }
-
-
-
 
 
 

@@ -1,22 +1,23 @@
 
 const skills = [
     {
-        name: "React",
-        img: "portReact.png",
-        progress: "80"
+        name: "FRONTEND DEVELOPMENT",
+        img: "web-icon.png",
+        description: "Design and develop full-stack web applications using the latest frontend and backend technologies."
+
     },
     {
-        name: "MongoDB",
-        img: "mongo.png",
-        progress:"70"   },
+        name: "BACKEND DEVELOPMENT",
+        img: "backend.png",
+        description: "Design and develop full-stack web applications using the latest frontend and backend technologies."
+
+     },
     {
-        name: "Javascript + ES6",
-        img: "java.png",
-        progress: "80"    },
-    {
-        name: "Node.js",
-        img: "portNode.png",
-        progress: "70"   },
+        name: "UI/UX DESIGN",
+        img: "ui-design-icon.png",
+        description: "Design and develop full-stack web applications using the latest frontend and backend technologies."
+
+     },
 
 ]
 

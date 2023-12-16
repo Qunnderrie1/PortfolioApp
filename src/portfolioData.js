@@ -1,3 +1,4 @@
+
 const projects = [
   {
     name: "ToDo App",
@@ -12,9 +13,9 @@ const projects = [
 
   },
   {
-    name: "Falling Ball",
-    img: "fallingball.jpg",
-    website: "https://play.google.com/store/apps/details?id=com.SuperHLStudios.FallingBallMobile&hl=en_US&gl=US&pli=1"
+    name: "TicTacToe Game",
+    img: "tictactOepic.PNG",
+    website: "https://qunnderrie1.github.io/TicTacToe/"
 
   },
 ]

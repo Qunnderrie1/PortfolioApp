@@ -5,7 +5,9 @@ import SkillsCard from './SkillsCard';
 import PortfolioCard from './PortfolioCard';
 import projects from '../portfolioData';
 import axios from "axios";
-import Sqaure from './Sqaure';
+import web from '../Images/computer-icon.png'
+
+
 
 const Content = () => {
 
@@ -36,7 +38,7 @@ const Content = () => {
         if(name == "" || text == ""){
             console.log("Please enter all input fields")
         }else{
-            axios.post("http://localhost:3001" , {
+            axios.post("/" , {
                 email: email,
                 name: name,
                 subject: subject,
@@ -63,36 +65,6 @@ const Content = () => {
 
         <Divider />
 
-        <section id='about' className='aboutContainer'>
-
-
-
-
-            <div className='customHeader'>
-            <h2>About.</h2>
-            </div>
-
-            <div className='aboutContent container'>
-            <Sqaure />
-
-            <article>
-                <div className='lines'></div>
-                My name is Qunnderrie Snelling, and I am a passionate full stack developer. I have always been fascinated by the intersection of designing and technology,
-                and I am thrilled to be able to bring my creative ideas to life through coding. My primary focus is both frontend and backend development, where I excel in crafting
-                beauitful user friendly web applications that are both visually appealing and user friendly. My technical skills include proficiency in HTML, CSS , Javascript + ES6 and various frontend and backend
-                framework such as React, and Node.js. I am well-versed in reponsive design principles, ensuring that websites look great and function seamlessly across different devices and screen sizes. Continuously learning and staying
-                up-to-date with the latest trends and technologies is priority for me. I am always exploring new tools, frameworks, and techniques to enhance my skills and deliver cutting-edge solutions to my clients.
-            </article>
-
-           
-
-            </div>
-
-
-        </section>
-
-        
-        <Divider />
 
         <section id='skills' className='skills container'>
         <div className='customHeader'>
@@ -103,15 +75,18 @@ const Content = () => {
             
             <div className='s-container'>
 
-            {
-                skills.map((item) => {
-                    return <SkillsCard 
-                    name={item.name}
-                     img={item.img}
-                     progress={item.progress}
-                      />
-                })
-            }
+                <div className='iconContainer'>
+                    <div className='iconSkillsContainer'>
+                        {
+                            skills.map((item) => {
+                                return <SkillsCard name={item.name} img={item.img} description={item.description}   />
+                            })
+                        }
+
+                    </div>
+
+                </div>
+
 
             </div>
 
