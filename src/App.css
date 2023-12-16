@@ -334,6 +334,11 @@ nav .navbar .navbar-expand{
   gap: 80px;
 }
 
+.skillsCard img {
+  width: auto;
+  height: auto;
+}
+
 .iconContainer{
     display: flex;
     justify-content: center;
