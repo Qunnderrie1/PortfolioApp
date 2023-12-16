@@ -22,6 +22,7 @@ const Header = () => {
 
     </div>
     <p className='connectText'>Social Media Links</p>
+
         <HeaderBottomBar />
      
 

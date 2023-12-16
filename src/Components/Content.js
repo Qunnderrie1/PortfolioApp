@@ -61,7 +61,9 @@ const Content = () => {
 
 
   return (
-    <div className='contentContainer '>
+    <div className='contentContainer container '>
+
+
 
         <Divider />
 
@@ -74,6 +76,7 @@ const Content = () => {
 
             
             <div className='s-container'>
+       
 
                 <div className='iconContainer'>
                     <div className='iconSkillsContainer'>

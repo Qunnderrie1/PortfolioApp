@@ -8,8 +8,10 @@ body{
   background-color: #000000;
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
+  position: relative;
   
 }
+
 
 
 .App {
@@ -147,6 +149,7 @@ nav .navbar .navbar-expand{
     color: white;
     text-align: center;
  
+ 
   }
 
   header button{
@@ -171,6 +174,8 @@ nav .navbar .navbar-expand{
     margin-top: 100px;
     font-weight: 600;
     color: #8903d6;
+    animation: moveHeaderBottom 1s ease-in-out;
+
   }
 
 
@@ -178,6 +183,7 @@ nav .navbar .navbar-expand{
 
   .sideBar p {
     padding: 0px 20px;
+
   }
   .sideBar{
     background-color: #8203d6;
@@ -190,6 +196,8 @@ nav .navbar .navbar-expand{
     color: #000;
     margin-top: 20px;
     padding: 20px;
+    animation: moveHeaderBottom 1s ease-in-out;
+
     
   
   }
@@ -198,6 +206,7 @@ nav .navbar .navbar-expand{
     flex-direction: row;
     gap: 25px;
     position: relative;
+    animation: moveHeaderBottom 1s ease-in-out;
   }
 
   .socialMediaContainer a {
@@ -237,6 +246,10 @@ nav .navbar .navbar-expand{
     display: flex;
     justify-content: center;
     gap: 40px;
+  }
+
+  .headerContainer{
+    animation: moveHeader 1s ease-in-out;
   }
 
 
@@ -391,7 +404,6 @@ nav .navbar .navbar-expand{
 
   .skillsCard{
     width: 300px;
-    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -495,6 +507,33 @@ nav .navbar .navbar-expand{
 
 
 
+  @keyframes moveHeader {
+
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0px);
+      opacity: 1;
+    }
+    
+  }
+
+  @keyframes moveHeaderBottom {
+
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    
+  }
+
+
 
 
 
@@ -552,9 +591,6 @@ nav .navbar .navbar-expand{
       justify-content: center;
       width: 100%;
     }
-    
-    
-
-
+  
     
   }
