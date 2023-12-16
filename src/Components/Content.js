@@ -61,7 +61,7 @@ const Content = () => {
 
 
   return (
-    <div className='contentContainer container '>
+    <div className='contentContainer  '>
 
 
 
