@@ -13,7 +13,10 @@ body{
 }
 
 
-
+.logoText{
+  color: #8903d6;
+  font-weight: 800;
+}
 .App {
   text-align: center;
   font-family: 'Lilita One', cursive;

@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg container ">
 
-      <a href='#header' >Qunnderrie</a>
+      <a href='#header' className='logoText' >Qunnderrie</a>
       
     <div class="nb container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
