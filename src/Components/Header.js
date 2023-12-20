@@ -11,7 +11,7 @@ const Header = () => {
         <p></p>
 
         <div className='headerButtonContainer'>
-        <a href="FullStack_Resume.pdf" download>
+        <a href="Qunnderrie_Snelling_Resume.pdf" download>
         <button style={{ width: "150px"}}>Resume CV</button>
         </a>
 
