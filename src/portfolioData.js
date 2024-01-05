@@ -1,9 +1,9 @@
 
 const projects = [
   {
-    name: "ToDo App",
-    img: "tdo.jpg",
-    website: "https://qunnderrie1.github.io/ToDoWebApp/"
+    name: "ToDoList (MERN Project)",
+    img: "FullStackTaskApp.png",
+    website: "https://fullstacktodoapp-lqgy.onrender.com/"
 
   },
   {
