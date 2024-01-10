@@ -1,7 +1,7 @@
 
 const projects = [
   {
-    name: "ToDoList (MERN Project)",
+    name: "ToDoList (Full-Stack)",
     img: "todolistapp.png",
     website: "https://fullstacktodoapp-lqgy.onrender.com/"
 

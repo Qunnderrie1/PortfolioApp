@@ -434,11 +434,14 @@ nav .navbar .navbar-expand{
     width: 350px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
   }
 
   .portfolioCardContainer img{
     border:#111111 solid 2px;
+
     width: 200px;
     height: 200px;
   }
