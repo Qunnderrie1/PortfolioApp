@@ -10,7 +10,7 @@ const SkillsCard = ({name, img, description}) => {
     <img src={img} width="100px" />
     <h4>{name}</h4>
       </div>
-    <div style={{marginTop: "-70px"}}>
+    <div style={{marginTop: "10px"}}>
     <p>{description}</p>
     </div>
 

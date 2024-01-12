@@ -352,8 +352,7 @@ nav .navbar .navbar-expand{
 }
 
 .skillsCard img {
-  width: 150px;
-  height: 150px;
+
 }
 
 .iconContainer{
@@ -397,10 +396,13 @@ nav .navbar .navbar-expand{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    width: 100%;
+  
   }
 
   .skillsCard img{
-    height: 150px;
+    height: 100%;
+    width: 100%;
 
   }
 
@@ -411,6 +413,7 @@ nav .navbar .navbar-expand{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+ 
    
   }
 
