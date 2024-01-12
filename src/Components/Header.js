@@ -7,7 +7,7 @@ const Header = () => {
 
     <div className='headerContainer container'>
 
-        <h1 style={{fontWeight: "light"}}> I AM A PRROFESSIONAL<span>WEB DEVELOPER</span></h1>
+        <h1 style={{fontWeight: "light"}}> I AM A PROFESSIONAL<span>WEB DEVELOPER</span></h1>
         <p></p>
 
         <div className='headerButtonContainer'>
